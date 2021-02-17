@@ -7,7 +7,7 @@ import { HelloComponent } from './hello.component';
 import { FavoriteColorComponent } from './form.component';
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent,FavoriteColorComponent ],
+  declarations: [ AppComponent, HelloComponent,FavoriteColorComponent],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
